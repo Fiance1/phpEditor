@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New',Courier,monospace;
+    font-size: 12px;
+}
+
+textarea,
+#resultTxt {
+    font-size: 12px;
+    width: 99%;
+    height: 600px;
+    border: 1px solid lightgrey;
+    resize: none;
+}
+
+#resultTxt {
+    margin-top: 1px;
+    padding-left: 1px;
+}
+
+legend {
+    color: lightgrey;
+}
+
+#codeArea,
+#resultArea
+{
+    width: 50%;
+    float: left;
+}
